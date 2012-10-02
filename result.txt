@@ -1,0 +1,4 @@
+chemistry 30
+math      100
+geometry  80
+english   50

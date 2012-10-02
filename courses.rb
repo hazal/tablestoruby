@@ -4,10 +4,10 @@ elden = Array.new(25){ Array.new(34,0) } # 25 satýrlýk 34 sütunluk tablo
 File.readlines('rbtext12.txt').each_with_index do|line,idx|
   eldenlist = line.chomp.split(' ')
 #  puts eldenlist [3] # 4. sütunu yazdýrýr <<
-#  puts student[2] >> her satýrýn 3. öðesini yazdýrýr <<
+#  puts student[2] >> her satırın 3. öğesini yazdırır <<
   # Merge into existing array
 #  puts student.length >> her satýrýn eleman sayýsýný verir <<
-  elden[idx][0..eldenlist.length - 1] = eldenlist
+  elden[idx][0..eldenlist.length - 1] = eldenlist # kdcc
   end
 # puts eldenlist >> hata verir "undefined local variable" ama grades dizi olduðu için mi çýkýyor ? <<
 # puts elden[9][11]  #>> 10. satýrýn 12. sütununu verir <<

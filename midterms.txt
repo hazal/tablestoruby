@@ -1,0 +1,4 @@
+chemistry 80 65
+math      60 75
+geometry  58 84
+english   60 75
