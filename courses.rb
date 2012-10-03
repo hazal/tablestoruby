@@ -1,5 +1,4 @@
 # Read the midterm1 and midterm2
-#grades = Array.new(10){ Array.new(10,0) }
 
 midterm = Array.new(4){ Array.new(4,0) } # 4 rows for courses , 4 columns for coursename , mt1 , mt2 and mt_ave
 File.readlines('midterms.txt').each_with_index do|line,idx|
